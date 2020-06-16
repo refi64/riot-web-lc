@@ -1,20 +1,20 @@
 name: Deploy to Firebase
 on:
-    - push
+  - push
 
 jobs:
   build:
     name: Deploy to Firebase
     runs-on: ubuntu-latest
     steps:
-        - uses: actions/checkout@v1
-        - uses: actions/setup-node@v2-beta
-            with:
-                node-version: '12'
-        - run: yarn
-        - run: yarn build
-        - uses: w9jds/firebase-action@v1.3.1
-            with:
-            args: deploy --only hosting
-            env:
-            FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+      - run: yarn
+      - run: yarn build
+      - uses: w9jds/firebase-action@v1.3.1
+        with:
+          args: deploy --only hosting
+          env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
