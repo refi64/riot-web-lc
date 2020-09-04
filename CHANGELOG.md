@@ -1,5 +1,88 @@
+Changes in [1.7.5](https://github.com/vector-im/element-web/releases/tag/v1.7.5) (2020-09-01)
+=============================================================================================
+[Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.5-rc.1...v1.7.5)
+
+## Security notice
+
+Element Web 1.7.5 fixes an issue where encrypted state events could break incoming call handling.
+Thanks to @awesome-michael from Awesome Technologies for responsibly disclosing this via Matrix's
+Security Disclosure Policy.
+
+## All changes
+
+ * Upgrade to React SDK 3.3.0 and JS SDK 8.2.0
+
+Changes in [1.7.5-rc.1](https://github.com/vector-im/element-web/releases/tag/v1.7.5-rc.1) (2020-08-26)
+=======================================================================================================
+[Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.4...v1.7.5-rc.1)
+
+ * Upgrade to React SDK 3.3.0-rc.1 and JS SDK 8.2.0-rc.1
+ * Update from Weblate
+   [\#15045](https://github.com/vector-im/element-web/pull/15045)
+ * Document .well-known E2EE secure backup setting
+   [\#15003](https://github.com/vector-im/element-web/pull/15003)
+ * Add docs for communities v2 prototyping feature flag
+   [\#15013](https://github.com/vector-im/element-web/pull/15013)
+ * Update links in README.md to point to Element
+   [\#14973](https://github.com/vector-im/element-web/pull/14973)
+ * Make kabyle translation available
+   [\#15027](https://github.com/vector-im/element-web/pull/15027)
+ * Change Riot to Element in readme
+   [\#15016](https://github.com/vector-im/element-web/pull/15016)
+ * Update links to element in the readme
+   [\#15014](https://github.com/vector-im/element-web/pull/15014)
+ * Link to Element in F-Droid as well
+   [\#15002](https://github.com/vector-im/element-web/pull/15002)
+ * Settings v3: Update documentation and configs for new feature flag behaviour
+   [\#14986](https://github.com/vector-im/element-web/pull/14986)
+ * Update jitsi.md with Element Android details
+   [\#14952](https://github.com/vector-im/element-web/pull/14952)
+ * TypeScript: enable es2019 lib for newer definitions
+   [\#14983](https://github.com/vector-im/element-web/pull/14983)
+ * Add reaction preview labs flags to develop
+   [\#14979](https://github.com/vector-im/element-web/pull/14979)
+ * Document new labs tweaks
+   [\#14958](https://github.com/vector-im/element-web/pull/14958)
+
+Changes in [1.7.4](https://github.com/vector-im/element-web/releases/tag/v1.7.4) (2020-08-17)
+=============================================================================================
+[Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.4-rc.1...v1.7.4)
+
+ * Upgrade to React SDK 3.2.0 and JS SDK 8.1.0
+
+Changes in [1.7.4-rc.1](https://github.com/vector-im/element-web/releases/tag/v1.7.4-rc.1) (2020-08-13)
+=======================================================================================================
+[Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.3...v1.7.4-rc.1)
+
+ * Upgrade to React SDK 3.2.0-rc.1 and JS SDK 8.1.0-rc.1
+ * Update policy links to element.io
+   [\#14905](https://github.com/vector-im/element-web/pull/14905)
+ * Update from Weblate
+   [\#14949](https://github.com/vector-im/element-web/pull/14949)
+ * Try to close notification on all platforms which support it, not just
+   electron
+   [\#14939](https://github.com/vector-im/element-web/pull/14939)
+ * Update bug report submission URL
+   [\#14903](https://github.com/vector-im/element-web/pull/14903)
+ * Fix arm docker build
+   [\#14522](https://github.com/vector-im/element-web/pull/14522)
+
 Changes in [1.7.3](https://github.com/vector-im/element-web/releases/tag/v1.7.3) (2020-08-05)
 =============================================================================================
+
+## Security notice
+
+Element Web 1.7.3 (as well as the earlier release 1.7.2) fixes an issue where
+replying to a specially formatted message would make it seem like the replier
+said something they did not. Thanks to Sorunome for responsibly disclosing this
+via Matrix's Security Disclosure Policy.
+
+Element Web 1.7.3 (as well as the earlier release 1.7.2) fixes an issue where an
+unexpected language ID in a code block could cause Element to crash. Thanks to
+SakiiR for responsibly disclosing this via Matrix's Security Disclosure Policy.
+
+## All changes
+
 [Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.3-rc.1...v1.7.3)
 
  * Upgrade to React SDK 3.1.0 and JS SDK 8.0.1
