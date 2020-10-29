@@ -1,3 +1,50 @@
+Changes in [1.7.12](https://github.com/vector-im/element-web/releases/tag/v1.7.12) (2020-10-28)
+===============================================================================================
+[Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.11...v1.7.12)
+
+ * Upgrade to React SDK 3.7.1 and JS SDK 9.0.1
+ * [Release] Fix Jitsi regressions with custom themes
+   [\#15577](https://github.com/vector-im/element-web/pull/15577)
+
+Changes in [1.7.11](https://github.com/vector-im/element-web/releases/tag/v1.7.11) (2020-10-26)
+===============================================================================================
+[Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.11-rc.1...v1.7.11)
+
+ * Upgrade to React SDK 3.7.0 and JS SDK 9.0.0
+
+Changes in [1.7.11-rc.1](https://github.com/vector-im/element-web/releases/tag/v1.7.11-rc.1) (2020-10-21)
+=========================================================================================================
+[Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.10...v1.7.11-rc.1)
+
+ * Upgrade to React SDK 3.7.0-rc.2 and JS SDK 9.0.0-rc.1
+ * Update Weblate URL
+   [\#15516](https://github.com/vector-im/element-web/pull/15516)
+ * Translations update from Weblate
+   [\#15517](https://github.com/vector-im/element-web/pull/15517)
+ * Jitsi accept theme variable and restyle
+   [\#15499](https://github.com/vector-im/element-web/pull/15499)
+ * Skip editor confirmation of upgrades
+   [\#15506](https://github.com/vector-im/element-web/pull/15506)
+ * Adjust for new widget messaging APIs
+   [\#15495](https://github.com/vector-im/element-web/pull/15495)
+ * Use HTTPS_PROXY environment variable for downloading external_api.min…
+   [\#15479](https://github.com/vector-im/element-web/pull/15479)
+ * Document customisation points
+   [\#15475](https://github.com/vector-im/element-web/pull/15475)
+ * Don't fatally end the Jitsi widget when it's not being used as a widget
+   [\#15466](https://github.com/vector-im/element-web/pull/15466)
+ * electron-platform: Pass the user/devce id pair when initializing the event
+   index.
+   [\#15455](https://github.com/vector-im/element-web/pull/15455)
+
+Changes in [1.7.10](https://github.com/vector-im/element-web/releases/tag/v1.7.10) (2020-10-20)
+===============================================================================================
+[Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.9...v1.7.10)
+
+ * [Release] Adjust for new widget messaging APIs
+   [\#15497](https://github.com/vector-im/element-web/pull/15497)
+ * Upgrade to React SDK 3.6.1
+
 Changes in [1.7.9](https://github.com/vector-im/element-web/releases/tag/v1.7.9) (2020-10-12)
 =============================================================================================
 [Full Changelog](https://github.com/vector-im/element-web/compare/v1.7.9-rc.1...v1.7.9)
